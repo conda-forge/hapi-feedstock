@@ -10,7 +10,7 @@ source:
   sha256: 112e4e14562233b75f1157ceb8bb01c0ac33b4f469c28af8fcc1c2bf080e6775
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . -vv"
 
@@ -30,7 +30,7 @@ requirements:
     - gdal
     - pandas
     - geopandas
-    - matplotlib
+    - matplotlib-base
     - python
     - scipy
     - shapely
