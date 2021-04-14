@@ -1,5 +1,5 @@
 {% set name = "Hapi" %}
-{% set version = "1.0.3" %}
+{% set version = "1.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/MAfarrag/Hapi/archive/{{ version }}.tar.gz
-  sha256: 112e4e14562233b75f1157ceb8bb01c0ac33b4f469c28af8fcc1c2bf080e6775
+  sha256: 8f04138ab40581f4e0bdeb2ff5bd3f5295d9beec7daea78c576cbd47476b8d74
 
 build:
   number: 1
@@ -17,10 +17,10 @@ build:
 requirements:
 
   host:
-    - python >=3.6
+    - python >=2.6
     - pip
   run:
-    - python >=3.6
+    - python >=2.6
     - pip
     - numpy
     - affine
@@ -57,7 +57,7 @@ about:
   description: |
     This module builds Distributed Hydrological model.
   dev_url: https://github.com/MAfarrag/HAPI
-  doc_url: https://github.com/MAfarrag/HAPI
+  doc_url: https://hapi-hm.readthedocs.io/
   doc_source_url: https://github.com/MAfarrag/HAPI/master/README.md
 
 extra:
