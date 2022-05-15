@@ -1,5 +1,5 @@
 {% set name = "Hapi" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/MAfarrag/Hapi/archive/{{ version }}.tar.gz
-  sha256: 444b7e7eda3a091978f78ea8285c10d2595f9367d2d51bf524d1b1a6157d9a93
+  sha256: 58bd637c566156b114b6e36b5eecbc03a78c542e45503addcda0b76206e9bc9f
 
 build:
-  number: 2
+  number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
 
@@ -49,13 +49,14 @@ requirements:
 test:
   imports:
     - Hapi
-    
+
 about:
   home: https://github.com/MAfarrag/HAPI
   license: BSD-3-Clause
+  license_file: LICENSE.md
   license_family: BSD
   license_file: LICENSE.md
-  summary: 'Distributed Hydrological model'
+  summary: Distributed Hydrological model
   description: |
     This module builds Distributed Hydrological model.
   dev_url: https://github.com/MAfarrag/HAPI
