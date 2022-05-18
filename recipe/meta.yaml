@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/MAfarrag/Hapi/archive/{{ version }}.tar.gz
-  sha256: cd64a993a6c1efe82041ecd324def5d1a262ca802c7c0df4c74a6de2b8de959e
+  sha256: 6B8213BD50A31E09DB32AFD0C56DD5CD990C46D02C983D99177A0674983D3400
 
 build:
   number: 0
