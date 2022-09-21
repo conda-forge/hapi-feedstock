@@ -32,7 +32,7 @@ requirements:
     - statsmodels >=0.14.0
     - rasterstats >=0.16.0
     - oasis >=1.0.2
-    - statista >=0.1.0
+    - statista >=0.1.2
     - loguru >=0.5.3
     
 test:
