@@ -1,5 +1,5 @@
 {% set name = "Hapi" %}
-{% set version = "1.3.3" %}
+{% set version = "1.3.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/MAfarrag/Hapi/archive/{{ version }}.tar.gz
-  sha256: 0ec33d753f9a369ef6f5c038cd73600c6e1f4f89a16ce7549582dcdc2f68bbd2
+  sha256: 3385ff556ab3d0cdcc454f76c3163aed031e849d67bd0275b9d4b3aac8a33311
 
 build:
   number: 0
