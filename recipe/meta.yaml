@@ -1,5 +1,5 @@
 {% set name = "Hapi" %}
-{% set version = "1.4.0" %}
+{% set version = "1.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/MAfarrag/Hapi/archive/{{ version }}.tar.gz
-  sha256: 3f6821352d4227b2c18a5cd94301355f7160936c49a35a717da44a0d3b71f493
+  sha256: e6e9c4f25a4754453065e30dee4ba342e5551503b29f09ed265fa35cfd67ce1b
 
 build:
   number: 0
@@ -43,6 +43,8 @@ requirements:
     - joblib >=1.2.0
     - loguru >=0.6.0
     - requests >=2.28.1
+    - pytest >=7.2.0
+    - pytest-cov ==4.0.0
 
     
 test:
